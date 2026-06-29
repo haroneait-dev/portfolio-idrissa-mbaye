@@ -1,14 +1,16 @@
 # Portfolio — Idrissa MBAYE
 
 Portfolio de **Idrissa MBAYE**, étudiant en **BTS SIO option SISR** à l'IPSSI Val d'Europe.
-Construit avec **Next.js**, **Tailwind CSS** et **shadcn/ui**.
 
-## Contenu
+Construit avec [Once UI](https://once-ui.com) (template *magic-portfolio*) pour Next.js.
 
-- Présentation, compétences (réseaux, systèmes, sécurité) et parcours
-- Projets : infrastructure réseau Labo GSB, stage réseau IT One, travaux pratiques
-- **Tableau de synthèse** officiel de l'épreuve E5 (BTS SIO)
-- CV téléchargeable (`public/cv/Idrissa-MBAYE-CV.pdf`)
+## Pages
+
+- **Accueil** — présentation et projets en vedette
+- **À propos** — profil, expériences, formation et compétences techniques
+- **Projets** — Labo GSB, stage IT One, travaux pratiques
+- **Synthèse** — tableau de synthèse officiel de l'épreuve E5 (BTS SIO)
+- **CV** téléchargeable : `public/cv/Idrissa-MBAYE-CV.pdf`
 
 ## Démarrage
 
@@ -17,8 +19,13 @@ npm install
 npm run dev
 ```
 
-Ouvrir [http://localhost:3000](http://localhost:3000).
+## Modifier le contenu
 
-## Mettre à jour le contenu
+- Contenu : `src/resources/content.tsx`
+- Thème & couleurs : `src/resources/once-ui.config.ts`
+- Projets : ajouter un fichier `.mdx` dans `src/app/work/projects`
+- Tableau de synthèse : `src/app/synthese/page.tsx`
 
-Tout le contenu du site est centralisé dans [`src/lib/portfolio-data.ts`](src/lib/portfolio-data.ts).
+---
+
+Template basé sur [magic-portfolio](https://github.com/once-ui-system/magic-portfolio) — licence CC BY-NC 4.0.
