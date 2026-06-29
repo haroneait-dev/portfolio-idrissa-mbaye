@@ -83,20 +83,17 @@ const groups: { group: string; items: { label: string; marks: string[] }[] }[] =
     group: "Réalisations en cours de première année",
     items: [
       {
-        label:
-          "Mise en place d'un serveur Windows en machine virtuelle avec configuration des services réseau",
+        label: "Serveur Windows virtualisé et services réseau",
         marks: ["C", "G"],
       },
       {
-        label:
-          "Création d'un réseau LAN de simulation et mise en place d'un environnement GLPI",
+        label: "Réseau LAN simulé et déploiement GLPI",
         marks: ["C", "D", "G"],
       },
-      { label: "Configuration des services DNS et DHCP", marks: ["C", "G"] },
-      { label: "Mise en place d'une autorité de certification (PKI)", marks: ["C", "G"] },
+      { label: "Services DNS et DHCP", marks: ["C", "G"] },
+      { label: "Autorité de certification (PKI)", marks: ["C", "G"] },
       {
-        label:
-          "Travaux pratiques Cisco Packet Tracer : RIP, OSPF, SSH, Port-security, DHCP Snooping, RADIUS, Syslog, NTP",
+        label: "TP Cisco : RIP, OSPF, SSH, sécurité des ports, RADIUS",
         marks: ["C", "D"],
       },
     ],
@@ -105,21 +102,20 @@ const groups: { group: string; items: { label: string; marks: string[] }[] }[] =
     group: "Réalisations en milieu professionnel — 1ʳᵉ année",
     items: [
       {
-        label:
-          "Travail de recherche d'information pour le projet de changement d'un pare-feu",
+        label: "Étude de remplacement d'un pare-feu",
         marks: ["C", "F"],
       },
       {
-        label: "Mise en place d'un système de supervision dans un parc informatique",
+        label: "Supervision d'un parc informatique",
         marks: ["D", "F"],
       },
       {
-        label: "Travail de recherche de solution pour la fibre et la téléphonie mobile",
+        label: "Étude fibre et téléphonie mobile",
         marks: ["C"],
       },
-      { label: "Changement d'un équipement pare-feu type Fortinet", marks: ["C", "F"] },
+      { label: "Remplacement d'un pare-feu Fortinet", marks: ["C", "F"] },
       {
-        label: "Mise en place du schéma d'une infrastructure réseau (STP, NAT, Sécurité, ACL)",
+        label: "Schéma d'infrastructure réseau (STP, NAT, ACL)",
         marks: ["C"],
       },
     ],
