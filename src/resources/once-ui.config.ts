@@ -21,6 +21,7 @@ const routes: RoutesConfig = {
   "/about": true,
   "/work": true,
   "/synthese": true,
+  "/veille": true,
   "/blog": false,
   "/gallery": false,
 };
